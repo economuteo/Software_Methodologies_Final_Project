@@ -1,0 +1,24 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.sentiment-badge-positive { background-color: #198754; }
+.sentiment-badge-negative { background-color: #dc3545; }
+.sentiment-badge-neutral  { background-color: #6c757d; }
+
+.star-rating span {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.review-card {
+  transition: box-shadow 0.2s;
+}
+.review-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.search-result-score {
+  font-size: 0.75rem;
+  color: #6c757d;
+}
